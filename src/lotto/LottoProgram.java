@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
-public class lottoSerivce {
+public class LottoProgram {
 
 	public static void main(String[] args) {
 		final int AUTO_ADD = 1;
