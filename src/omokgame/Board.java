@@ -20,9 +20,8 @@ public class Board {
 		
 	}
 	void put(Omok omok) {
-		
-		int y = omok.omok.get("Y좌표");
-		int x = omok.omok.get("X좌표");
+		int y = omok.y-1;
+		int x = omok.x-1;
 		
 		if(buf[y][x] == '╉') {
 			if(cnt % 2 == 0)
