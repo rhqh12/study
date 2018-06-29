@@ -4,16 +4,17 @@ import java.util.Scanner;
 
 public class Console {
 	Board board;
+	Scanner scan;
 	
 	public Console() {
 		board = new Board();
+		scan = new Scanner(System.in);
 	}
 	
 	void printBoard() {
 		board.print();
 	}
 	public Omok inputOmok() {
-		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("x sp y >>>> ");		
 		int x = scan.nextInt()-1;
