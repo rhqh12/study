@@ -15,7 +15,8 @@ public class Guest {
 	}
 
 	public void printMenu() {
-		menu.print();
+		menu.print(); 
+		orderBarista();
 	}
 
 	public void orderBarista() {
